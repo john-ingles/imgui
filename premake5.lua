@@ -25,4 +25,4 @@ project "ImGui"
     staticruntime "On"
 
   filter { "system:windows", "configurations:Release"}
-    buildoption "/MT"
+    buildoptions "/MT"
